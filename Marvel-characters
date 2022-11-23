@@ -69,3 +69,5 @@ WHEN speed > 3 THEN "C"
 ELSE "G"
 END AS speed_category
 FROM marvels GROUP BY speed_category;
+
+SELECT COUNT(*) 
