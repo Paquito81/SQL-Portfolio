@@ -1,4 +1,9 @@
-CREATE TABLE clothing ( id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, aisle INTEGER, price INTEGER);
+CREATE TABLE clothing ( 
+    id INTEGER PRIMARY KEY, 
+    name TEXT, quantity INTEGER, 
+    aisle INTEGER, 
+    price INTEGER
+    );
 
 INSERT INTO clothing VALUES (1, "shirt", 4, 3, 5.99);
 INSERT INTO clothing VALUES (2, "leggings", 7, 10, 7.99);
