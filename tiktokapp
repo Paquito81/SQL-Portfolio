@@ -1,0 +1,40 @@
+/* What does the app's SQL look like? */
+
+
+CREATE TABLE tiktok_settings (
+     id INTEGER PRIMARY KEY AUTOINCREMENT,
+     username TEXT,
+     fullname TEXT,
+     password TEXT, 
+     email TEXT,
+     followers INTEGER,
+     following INTEGER
+     );
+     
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("charlieputh", "Charlie Puth", "jk7)%*@#jk", "charlieputh@gmail.com", 21000000, 33); 
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("Mrballen", "John Allen", "jpdojp893", "mrballen@outlook.com", 82000000, 3044);
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("gghamari", "Goldie Hamari", "dyoi*&(*#ll", "gghamari265@yahoo.com", 227100, 183);
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("mrbeast", "Jimmy Donaldson", "pwp)(()89", "mrbeastcanthelphimself@yahoo.com", 589000000, 277);
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("jimmydarts", "Jimmy Darts", "iefuyiyio", "jimmydarts22@outlook.com", 92000000, 119);
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("lifeofadoctor", "dr. faze", "imnotadoctor", "lifeofadoctor@chickenmcnugget.com", 36000000, 173); 
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("kingbadgerrr11", "Frans", "itsnotmetoday", "imthirstyforyou@yahoo.com", 12000000, 110); 
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("principlesbyraydalio", "Ray Dalio", "ilikecredit", "raydalio@outlook.com", 16000000, 10);
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("gobiernosv", "Gobierno de El Salvador", "Saludemoslapatriaorgullosos","gobiernosv@elsavador.gov", 569600, 1);
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("itsdanielmac", "Daniel Mac", "becomingrich", "danielmac@starnet.io", 135000000, 554);
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("imelijahbutler", "Elijah Butler", "sqlboss3000", "elijahbutler@yahoo.com", 446000, 165);
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("charlottechaze", "Charlotte Chaze", "dhiuwjhei^&&*&", "charlottechaze@technical.com", 322800, 675); 
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("evelynshares", "Evelyn", "sqlismyfriend","Evelynshares@gmail.com", 846000, 368);
+
+SELECT * FROM tiktok_settings;
+
+UPDATE tiktok_settings SET email = "gghamirir@outlook.com" 
+WHERE id = 3;
+
+SELECT * FROM tiktok_settings;
+
+INSERT INTO tiktok_settings (username, fullname, password, email, followers, following) VALUES ("freeturkey", "Turkey H. Legs", "imnotaturkey", "freeturkey@foreverhome.com", 567000000, 2);
+
+SELECT * FROM tiktok_settings;
+
+DELETE FROM tiktok_settings WHERE id = 10;
+SELECT * FROM tiktok_settings;
